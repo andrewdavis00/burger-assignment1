@@ -353,6 +353,14 @@ textarea {
 
 @media (max-width:1596px) {
 
+    .menuSection,
+    .fullExperienceSection,
+    .headerSection {
+        /* justify-content: center;
+        align-content: center; */
+        align-items: center;
+    }
+
     /* wrapper */
 
     .wrapper {
@@ -376,6 +384,8 @@ textarea {
         text-align: end;
         margin-bottom: 0px;
         padding-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
     }
 
     .headerSection img {
@@ -385,6 +395,7 @@ textarea {
     /* NEW TO OUR MENU SECTION */
 
     .menuSection {
+        display: flex;
         flex-direction: column-reverse;
     }
     
